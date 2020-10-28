@@ -2,7 +2,7 @@ GET http://localhost:3000/login
 
 ###
 
-GET  http://localhost:3000/login/Ke121221@tst.net/12345671
+GET  http://localhost:3000/login/devTest@gmail.com/passwd
 
 ###
 
@@ -10,7 +10,7 @@ POST  http://localhost:3000/register
 Content-Type: application/json
 
 {
-   "email": "Ke121221@tst.net",
-   "passwd": "12345671",
+   "email": "devTest@gmail.com",
+   "passwd": "passwd",
    "userType": "ADMIN"
 }
