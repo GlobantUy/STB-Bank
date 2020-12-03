@@ -1,0 +1,21 @@
+{
+  "name": "yqc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "devStart"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.3",
+    "node": "^15.2.1",
+    "vercel": "^21.0.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.8.5"
+  }
+}
