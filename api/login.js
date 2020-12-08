@@ -1,5 +1,6 @@
 import { connectToDatabase } from '../lib/database'
-const cors = require ('cors')
+const cors = require('cors')
+
 
 module.exports = async (req, res) => {
     let userSearch
@@ -7,11 +8,14 @@ module.exports = async (req, res) => {
 
     const db = await connectToDatabase();
     const collection = await db.collection("users");
+    if (req.method === 'OPTIONS') {
+        return res.status(200).send('ok');
+    }
     if (req.method === 'POST') {
         try {
 
             userSearch = await collection.find({ email: req.body.email, passwd: req.body.passwd }).toArray();
-       
+
             let conf = true
             try {
                 userSearch[0].email
@@ -46,6 +50,6 @@ module.exports = async (req, res) => {
         }
     }
 
-    
+
 
 }
