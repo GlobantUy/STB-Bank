@@ -7,9 +7,6 @@ assignees: ''
 
 ---
 
-**Descripción del bug**
-Una descripción clara y concisa de cuál es el bug.
-
 **To Reproduce**
 Steps to reproduce the behavior:
 1. Ir a '...'
@@ -18,6 +15,9 @@ Steps to reproduce the behavior:
 4. Ver el error
 
 **Resultado Esperado**
+Una descripción clara y concisa de lo que esperaba que sucediera.
+
+**Resultado Obtenido**
 Una descripción clara y concisa de lo que esperaba que sucediera.
 
 **Capturas**
