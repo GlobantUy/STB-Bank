@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**Reproducción**
+Pasos para reproducir el bug:
 1. Ir a '...'
 2. Cliquear '....'
 3. Scrollear '....'
@@ -18,13 +18,13 @@ Steps to reproduce the behavior:
 Una descripción clara y concisa de lo que esperaba que sucediera.
 
 **Resultado Obtenido**
-Una descripción clara y concisa de lo que esperaba que sucediera.
+Una descripción clara de lo que se obtuvo.
 
 **Capturas**
-Si corresponde, agregue capturas de pantalla para ayudar a explicar su problema.
+Si corresponde, agregar capturas de pantalla para ayudar a entender el bug.
 
 **Datos del dispositivo:**
- - Sistema operativo: [ej: iOS]
+ - Sistema operativo: [ej: Windows]
  - Browser [ej: chrome, safari]
 
 **Información adicional**
