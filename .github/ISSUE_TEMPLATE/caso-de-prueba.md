@@ -2,7 +2,7 @@
 name: Caso de Prueba
 about: Creación de Caso de Prueba para ejecución
 title: "[Funcionalidad] Descripción clara y concisa de qué es lo que se quiere probar"
-labels: ''
+labels: TestCase
 assignees: ''
 
 ---
